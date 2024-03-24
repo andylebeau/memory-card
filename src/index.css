@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.main-wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scores {
+  text-align: right;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card-image {
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  background-size: cover;
+}
+
+.card-text {
+  text-align: center;
+}
